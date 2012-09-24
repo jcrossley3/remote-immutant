@@ -1,5 +1,5 @@
 (ns remote.receive
-  (:use immutant.messaging))
+  (:use [immutant.messaging :only [receive]]))
 
 (defn -main [& args]
-  (println (receive "queue")))
+  (println (receive "queue", :host "localhost", :port 5445)))
