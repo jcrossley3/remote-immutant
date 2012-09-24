@@ -1,4 +1,4 @@
 (ns remote.init
-  (:use immutant.messaging))
+  (:use [immutant.messaging :only [start]]))
 
 (start "queue")
