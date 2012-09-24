@@ -7,4 +7,6 @@
                  [org.immutant/immutant-messaging "0.3.0"]
                  [org.hornetq/hornetq-core "2.2.18.Final"]
                  [org.hornetq/hornetq-jms "2.2.18.Final"]
-                 [org.jboss.netty/netty "3.2.6.Final"]])
+                 [org.jboss.netty/netty "3.2.6.Final"]]
+  :aliases {"publish" ["run" "-m" "remote.publish"]
+            "receive" ["run" "-m" "remote.receive"]})

@@ -6,8 +6,8 @@ An example of publishing/receiving messages outside of Immutant
 
 After deploying a HornetQ queue named "queue" (see below)...
 
-    $ lein run -m remote.publish whatever message you want
-    $ lein run -m remote.receive
+    $ lein publish whatever message you want
+    $ lein receive
     
 To start up the queue, just deploy the app (see immutant.clj)
 
