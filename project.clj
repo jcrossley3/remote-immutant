@@ -4,9 +4,7 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.4.0"]
-                 [org.immutant/immutant-messaging "0.3.0"]
-                 [org.hornetq/hornetq-core "2.2.18.Final"]
-                 [org.hornetq/hornetq-jms "2.2.18.Final"]
-                 [org.jboss.netty/netty "3.2.6.Final"]]
+                 [org.immutant/immutant-messaging "0.9.0"]
+                 [io.netty/netty "3.6.2.Final"]]
   :aliases {"publish" ["run" "-m" "remote.publish"]
             "receive" ["run" "-m" "remote.receive"]})
